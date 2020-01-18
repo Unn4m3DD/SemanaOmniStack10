@@ -1,7 +1,9 @@
-var obj = {
-    a: 0,
-    b: 0,
-    c: "asd",
-    d: function (param) { console.log("yhey " + param); }
-};
-obj.d(obj.c);
+require("./api/mongodb")
+const express = require("express");
+const app = express();
+const router = require("./routes");
+
+app.use(express.json());
+app.use(router);
+
+app.listen(3333);
