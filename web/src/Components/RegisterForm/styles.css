@@ -1,0 +1,49 @@
+.devForm {
+  background-color: #FFF;
+  height: 430px;
+  width: 400px;
+  padding: 40px 45px;
+  box-shadow:1px 1px 2px 1px rgba(170,170,170,1);
+  
+}
+
+.devForm .inputContainer {
+  flex-direction: column;
+}
+
+.devForm .inputContainer {
+  margin-top: 20px;
+}
+
+.devForm .inputContainer label {
+  color: #aaa;
+}
+
+.devForm .inputContainer input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  outline-color: transparent;
+  font-size: larger;
+}
+
+.devForm .submitButton {
+  background: #72bcee;
+  margin-top: 30px;
+  color: #fff;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  font-size: xx-large;
+  transition: background .2s ease-in-out;
+}
+
+.devForm .submitButton:hover {
+  background: #50a7e0;
+}
+
+strong {
+  width: 100%;
+  flex: 1;
+  text-align: center;
+  font-size: x-large;
+}
